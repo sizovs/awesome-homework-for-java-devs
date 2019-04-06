@@ -1,4 +1,4 @@
-### Problem definition
+# Challenge
 
 Create a simple consumer loan app. The app is a headless web service that exposes the following endpoints:
 
@@ -21,4 +21,4 @@ Use Java programming language; use any JVM language for tests. You have total co
 - Code quality
 - Checkout-and-run convenience
 
-**Good luck and have fun!**
+### Happy coding! 👨‍💻
