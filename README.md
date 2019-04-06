@@ -18,7 +18,7 @@ Use Java programming language; use any JVM language for tests. You have total co
 
 ### What gets evaluated
 - Conformance to business requirements
-- Code quality
+- Code quality (we value good OO design)
 - Checkout-and-run convenience
 
 ### Happy coding! 👨‍💻
