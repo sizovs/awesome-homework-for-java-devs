@@ -4,7 +4,7 @@ Create a simple consumer loan app. The app is a headless web service that expose
 
 - apply for a loan and provide `loan amount`, `term`, `name`, `surname`, and `personal id`
 - list all approved loans
-- list all approved loans by a borrower
+- list all approved loans by a borrower (you can skip AuthN and AuthZ)
   
 Do not grant a loan if:
 - the application comes from a person with a blacklisted personal id (a list of blacklisted personal ids lives in a config file or DB)
