@@ -7,14 +7,14 @@ Create a simple consumer loan app. The app is a headless web service that expose
 - list all approved loans by a borrower (you can skip AuthN and AuthZ)
   
 Do not grant a loan if:
-- the application comes from a person with a blacklisted personal id (a list of blacklisted personal ids lives in a config file or DB)
-- too many applications come from a given country in the last `N` days
+- the application comes from a person whose personal id is blacklisted (store a list of blacklisted ids in a config file or DB)
+- too many applications come from a certain country in the last `N` days
 
-Resolve a country code using some external service and store it in a database, together with a loan application.
+Use some external service to resolve a country code and store it in a database, together with the loan application. 
 
 ### Technical requirements
 
-Use Java programming language; use any JVM language for tests. You have total control over frameworks, tools, and libraries.
+Use Java programming language; For tests, use any JVM language. You have total control over frameworks, tools, and libraries.
 
 ### What gets evaluated
 - Conformance to business requirements
