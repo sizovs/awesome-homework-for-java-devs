@@ -2,15 +2,15 @@
 
 Create a simple consumer loan app. The app is a headless web service that exposes the following endpoints:
 
-- apply for a loan and provide `loan amount`, `term`, `name`, `surname`, and `personal id`
-- list all approved loans
-- list all approved loans by a borrower (you can skip AuthN and AuthZ)
+- Apply for a loan and provide `loan amount`, `term`, `name`, and `personal id`
+- List all loans
+- List all loans by a borrower (you can skip AuthN and AuthZ)
   
-Do not grant a loan if:
-- the application comes from a person whose personal id is blacklisted (store a list of blacklisted ids in a config file or DB)
-- too many applications come from a certain country in the last `N` days
+Reject the loan application if:
+- Borrower is blacklisted (store blacklisted personal ids in a config file or DB)
+- Too many applications from one country in the last 24 hours
 
-Use some external service to resolve a country code and store it in a database, together with the loan application. 
+Use a 3rd-party service to resolve a country, and store it in a database, together with a loan application. 
 
 ### Technical requirements
 
