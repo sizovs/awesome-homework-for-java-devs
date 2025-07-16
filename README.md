@@ -25,6 +25,6 @@ Resolve country via any third-party service and persist it alongside the loan ap
 - Code quality (we value good OO design guided by tests)
 - Checkout-and-run convenience
 
-Please summarize critical design decisions in README.md.
+Summarize critical design decisions in README.md.
 
 ### Happy coding! 👨‍💻👩‍💻
