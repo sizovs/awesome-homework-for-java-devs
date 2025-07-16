@@ -27,4 +27,4 @@ Resolve country via any third-party service and persist it alongside the loan ap
 
 Please summarize critical design decisions in README.md.
 
-### Happy coding! 👨‍💻
+### Happy coding! 👨‍💻👩‍💻
