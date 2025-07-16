@@ -1,6 +1,6 @@
 # Challenge
 
-Create a simple consumer loan app. The app is a headless web service that exposes the following endpoints:
+Create a simple consumer lending app. The app is a headless web service with the following API:
 
 - Apply for a loan and provide `loan amount`, `term`, `name`, and `personal id`
 - List all loans by a borrower (you can skip AuthN and AuthZ)
@@ -8,15 +8,15 @@ Create a simple consumer loan app. The app is a headless web service that expose
 Lending rules:
 - Monthly interest rate: 5%
   
-Reject the loan application if:
-- Borrower is blacklisted (store blacklisted personal ids in a config file or a database)
-- Too many applications from one country in the last 24 hours
+Reject loan application if:
+- Borrower is blacklisted (store blacklisted `personal ids` in a config file or a database)
+- Application limit exceeded for one country in the last 24h.
 
-Use a 3rd-party service to resolve a country, and store it in a database, together with a loan application. 
+Resolve country via any third-party service and persist it alongside the loan application.
 
 ### Technical requirements
 
-- Use Java programming language
+- Use Java programming language ☕️
 - Use any JVM language for tests
 - You have total control over frameworks, tools, and libraries
 
@@ -24,5 +24,7 @@ Use a 3rd-party service to resolve a country, and store it in a database, togeth
 - Conformance to business requirements
 - Code quality (we value good OO design guided by tests)
 - Checkout-and-run convenience
+
+Please summarize critical design decisions in README.md.
 
 ### Happy coding! 👨‍💻
