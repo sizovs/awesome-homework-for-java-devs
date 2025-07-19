@@ -10,7 +10,7 @@ Lending rules:
   
 Reject loan application if:
 - Borrower is blacklisted (store blacklisted `personal ids` in a config file or a database)
-- Application limit exceeded for one country in the last 24h.
+- Too many applications from one country in the last 24h.
 
 Resolve country via any third-party service and persist it alongside the loan application.
 
